@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "vehicleId": "VEH_001",
+      "timestamp": "2024-03-20T08:00:00Z",
+      "eventType": "IGNITION_ON",
+      "location": {
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "data": {
+        "batteryLevel": 85,
+        "fuelLevel": 75,
+        "odometer": 45000,
+        "speed": 0,
+        "engineTemp": 25,
+        "tirePressure": {
+          "frontLeft": 32,
+          "frontRight": 32,
+          "rearLeft": 32,
+          "rearRight": 32
+        }
+      }
+    },
+    {
+      "id": "evt_002",
+      "vehicleId": "VEH_001",
+      "timestamp": "2024-03-20T08:15:00Z",
+      "eventType": "TIME_INTERVAL",
+      "location": {
+        "latitude": 12.9756,
+        "longitude": 77.5986
+      },
+      "data": {
+        "batteryLevel": 83,
+        "fuelLevel": 73,
+        "odometer": 45015,
+        "speed": 45,
+        "engineTemp": 75,
+        "tirePressure": {
+          "frontLeft": 32,
+          "frontRight": 31,
+          "rearLeft": 32,
+          "rearRight": 32
+        }
+      }
+    },
+    {
+      "id": "evt_003",
+      "vehicleId": "VEH_001",
+      "timestamp": "2024-03-20T08:30:00Z",
+      "eventType": "TIME_INTERVAL",
+      "location": {
+        "latitude": 12.9796,
+        "longitude": 77.6026
+      },
+      "data": {
+        "batteryLevel": 81,
+        "fuelLevel": 71,
+        "odometer": 45030,
+        "speed": 50,
+        "engineTemp": 80,
+        "tirePressure": {
+          "frontLeft": 32,
+          "frontRight": 31,
+          "rearLeft": 32,
+          "rearRight": 31
+        }
+      }
+    },
+    {
+      "id": "evt_004",
+      "vehicleId": "VEH_001",
+      "timestamp": "2024-03-20T09:00:00Z",
+      "eventType": "IGNITION_OFF",
+      "location": {
+        "latitude": 12.9836,
+        "longitude": 77.6066
+      },
+      "data": {
+        "batteryLevel": 79,
+        "fuelLevel": 69,
+        "odometer": 45045,
+        "speed": 0,
+        "engineTemp": 40,
+        "tirePressure": {
+          "frontLeft": 32,
+          "frontRight": 31,
+          "rearLeft": 32,
+          "rearRight": 31
+        }
+      }
+    }
+  ]
+} 
